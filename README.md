@@ -1,45 +1,35 @@
 # Bitwise Patterns
 
-This program shows different patterns made with the cells x,y positions.
+This program shows different patterns made applying the xor operator to the  x  y positions.
 
-\sigma
-
-The Graphic User Interface (GUI) consists in several JButtons for each of the digits and a main JButton to start solving Sudoku. These buttons for the digits are grouped in JPanels.
-
-<p align="center">
-  
-  <img src="/images/200x200_n_22.png" width="500" height="800">
-</p>
-
-<p>
-  The user can set the digits bi clicking on the buttons. Then to see the solution they must click the "Solve Sudoku" button.
-  In the following image, the digits set by the user are in blue, whereas the ones "found" by the computer are in lila.
-</p>
-<p align="center">
-  <img src="/images/200x200_seq_100_200.png" width="450" height="450">  
-<p>
+---
 
 
 <p align="center">
-  <img src="/images/200x200_seq_11_13_17_19.png" width="450" height="450">  
-<p>
+  The most simple pattern is just applying the xor operator.
 
-
-<p align="center">
-  <img src="/images/300x300_n_237.png" width="450" height="450">  
-<p>
-
-<p align="center">
-  <img src="/images/500x500_and.png" width="450" height="450">  
-<p>
-
-<p align="center">
-  <img src="/images/500x500_or.png" width="450" height="450">  
-<p>
-  
-When the digits entered by the user clearly do not have a solution, a simple window pops up with this message.
-<p align="center">
-  <img src="/images/500x500_simple.png" width="450" height="450">
+  # $$\sum_{x=1}^r  \sum_{y=1}^c x  ⊕  y $$
+  <img src="/images/500x500_simple.png" width="900" height="600">
 <p>  
+
+
+<p align="center">  
+  Some interesting patters emerge by applying the modulo operator
+  $$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod(n) $$
+  <img src="/images/200x200_n_22.png" width="900" height="600">
+  <img src="/images/300x300_n_237.png" width="900" height="600">
+<p>
+
+<p align="center">
+  The following images show the results of executing the and and or operators respectively.
+  
+  $$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod (x &amp; y) $$
+  <img src="/images/500x500_and.png" width="900" height="600">
+  
+  $$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod (xvy) $$
+  <img src="/images/500x500_or.png" width="900" height="600">
+<p>
+  
+
 
 
