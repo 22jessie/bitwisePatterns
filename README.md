@@ -23,13 +23,13 @@ This program shows different patterns made applying the xor operator to the  x  
 <p align="center">
   The following images show the results of executing the and and or operators respectively.
   
-  $$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod (x &amp; y) $$
+  
   <img src="/images/500x500_and.png" width="900" height="600">
   
-  $$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod (xvy) $$
+  
   <img src="/images/500x500_or.png" width="900" height="600">
 <p>
   
-
-
+$$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod (x &amp; y) $$
+$$\sum_{x=1}^r  \sum_{y=1}^c (x  ⊕  y) mod (xvy) $$
 
