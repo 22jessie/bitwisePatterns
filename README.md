@@ -8,7 +8,7 @@ The Graphic User Interface (GUI) consists in several JButtons for each of the di
 
 <p align="center">
   
-  <img src="/images/200x200_n_22.png" width="450" height="450">
+  <img src="/images/200x200_n_22.png" width="500" height="800">
 </p>
 
 <p>
@@ -21,25 +21,25 @@ The Graphic User Interface (GUI) consists in several JButtons for each of the di
 
 
 <p align="center">
-  <img src="200x200_seq_11_13_17_19.png" width="450" height="450">  
+  <img src="/images/200x200_seq_11_13_17_19.png" width="450" height="450">  
 <p>
 
 
 <p align="center">
-  <img src="300x300_n_237.png" width="450" height="450">  
+  <img src="/images/300x300_n_237.png" width="450" height="450">  
 <p>
 
 <p align="center">
-  <img src="500x500_and.png" width="450" height="450">  
+  <img src="/images/500x500_and.png" width="450" height="450">  
 <p>
 
 <p align="center">
-  <img src="500x500_or.png" width="450" height="450">  
+  <img src="/images/500x500_or.png" width="450" height="450">  
 <p>
   
 When the digits entered by the user clearly do not have a solution, a simple window pops up with this message.
 <p align="center">
-  <img src="500x500_simple.png" width="450" height="450">
+  <img src="/images/500x500_simple.png" width="450" height="450">
 <p>  
 
 
