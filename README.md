@@ -6,7 +6,9 @@ This program shows different patterns made applying the xor operator to the  x  
 
 The most simple pattern is just applying the xor operator.
 <p align="center">
+  
   ## $$\sum_{x=1}^r  \sum_{y=1}^c x  ⊕  y $$
+  
   <img src="/images/500x500_simple.png" width="900" height="600">
 <p>  
 
